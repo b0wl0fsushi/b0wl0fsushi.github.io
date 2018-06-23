@@ -11,8 +11,31 @@
     
     h1 {
         font-family: san-serif;
+        font-size: 120%
+        text-align = right;
     } 
+
+    p {
+    text-align: center;
+    color: blue; 
+    }
     
+    #theFirstID {
+        border: dotted 10px black;
+    }
+
+    #theSecondID {
+        border: solid 50px red;
+    }
+
+    .error {
+        color: red;
+        border: solid 1px red;
+        /* padding: 20px 20px; */
+        padding: 20px 25px 30px 40px
+        margin-top= 200px 200px;
+        margin-bottom: 50px;
+    }
     </style>
 </head>
 <body style="background-color: orange">
@@ -27,5 +50,8 @@
     <p style="font-family: 'Roboto'">This is another font</p>
     <p style="font-size: 200%">This text is too big...</p>
     <p style="font-size: 200px">This text has too much pixels...</p>
+    <p id="theFirstID">This is an Id</p>
+    <p id="theSecondID"> This is repeating</p>
+    <p class="error">This is an error. OwO</p>
 </body>
 </html>
